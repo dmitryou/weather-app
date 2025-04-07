@@ -105,9 +105,7 @@ function App(): React.JSX.Element {
   };
 
   const onCityChange = (text: string) => {
-    console.log('text', text);
     setCity(text);
-    console.log('city', city);
   }
 
   const safePadding = '5%';
